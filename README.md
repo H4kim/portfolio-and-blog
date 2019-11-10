@@ -26,5 +26,6 @@ i'm using cdn and separate files for libraries to deploy the app one github page
 * **Hakim Bencella** - *Initial work* - [Linkedin](https://www.linkedin.com/in/hakim-bencella-838944138/)
 See also the list of [contributors](https://github.com/H4kim/portfolio-and-blog/graphs/contributors) who participated in this project.
 
-## 
+## Contributing
+
 i'd love to have your helping hand on Portfolio-And-Blog app :)!
