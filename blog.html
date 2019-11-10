@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Use The node installed package instead ( i'm using cdn and separte file for glide to use github page) uncomment the next three line and remove aos cdn and glide separate file  -->
+
+    <!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="node_modules\aos\dist\aos.css" /> -->
+    
+    <!-- remove these links and use the above from node_modules  -->
+    <link href="dist/lib/glide/glide.core.min.css" rel="stylesheet">
+    <link href="dist/lib/glide/glide.theme.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Hakil Bencella - BLOG</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="dist/img/logo.svg" alt="logo">
+            </div>
+
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="index.html">
+                        <svg  class="nav-icon" >
+                            <use href="dist/img/icons.svg#icon-home2"></use>
+                        </svg> 
+                        home
+                    </a>        
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html#article">
+                        <svg class="nav-icon" >
+                            <use href="dist/img/icons.svg#icon-blogger"></use>
+                        </svg> 
+                        blog
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <svg class="nav-icon">
+                            <use href="dist/img/icons.svg#icon-envelop"></use>
+                        </svg> 
+                        contact
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="blog.html#category">
+                        <svg class="nav-icon">
+                            <use href="dist/img/icons.svg#icon-list2"></use>
+                        </svg> 
+                        category
+                    </a>
+                </li>
+               
+            </ul>
+
+        </nav>
+        
+        <div class="header-cover">
+                <img class="header-cover--1" src="dist/img/cover-blog2.svg">
+                <img class="header-cover--2" src="dist/img/cover-blog.svg" >
+        </div>
+            
+        </header>
+
+    <main class="main">
+        <h2 class="glid-title">Popular Articles</h2>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide glide_article">
+                        <div class="glide_article--header">
+                        </div>
+                        <div class="glide_article--main">
+                            <h2>3 Surefire Ways To Enhance Your Customer Experience</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit quidem adipisicing elit. Suscipit quidem</p>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+            </div>
+        </div>
+
+        <div class="suscribe" data-aos="fade-up" data-aos-once="true">
+            <div class="suscribe-left">
+                <img src="dist/img/subscribe.svg" alt="suscribe">
+            </div>
+
+            <div class="suscribe-right">
+                <h2>
+                    Join our 25,000+ newsletter subscribers
+                </h2>
+                <p><span>it’s my aim to help you be a better designer</span>. I’ve made you a simple Adobe Illustrator template to manage your colour, grid and guides. So you’ll get to executing your ideas around 20 minutes sooner, every time.</p>
+
+                <p>Join my monthlyish email list and I’ll send you the template and new tutorials to help you design & code beautiful websites. You can unsubscribe anytime.</p>
+                
+                <form action="#" class="suscribe-form">
+                    <div class="suscribe-input-container">
+                        <input type="text" class="suscribe-form--input" placeholder="First Name">
+                        <input type="text" class="suscribe-form--input" placeholder="Email Adress">
+                        <a href="#" class="suscribe-form--btn">Suscribe</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="articles-container">
+
+            <!-- Article MAIN -->
+            <div class="articles-main" id="article">
+                <div class="article" data-aos="zoom-in" data-aos-once="true">
+                    <a href="#" class="article-title"><h1>Why you should focus on quality assurance planning</h1></a>
+                    <a href="#">
+                        <img src="dist/img/article-1.png" alt="article-img" class="article-img">
+                    </a>
+
+                    <div class="article-entry">
+                        <div class="article-social">
+                            <svg class="article-icon">
+                                <use href="dist/img/icons.svg#icon-facebook"></use>
+                            </svg>
+                            <svg class="article-icon">
+                                <use href="dist/img/icons.svg#icon-twitter"></use>
+                            </svg>
+                            <svg class="article-icon">
+                                <use href="dist/img/icons.svg#icon-instagram"></use>
+                            </svg>
+                            <svg class="article-icon">
+                                <use href="dist/img/icons.svg#icon-linkedin"></use>
+                            </svg>
+
+                        </div>
+                        <div class="article-entry-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugit consequatur consequuntur vel nostrum suscipit nobis velit vero laudantium inventore molestias, alias voluptatum dolorum, autem ipsum nisi, quibusdam reprehenderit earum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article" data-aos="zoom-out" data-aos-once="true">
+                    <a href="#" class="article-title"><h1>3 Surefire Ways To Enhance Your Customer Experience</h1></a>
+                    <a href="#">
+                        <img src="dist/img/article-2.png" alt="article-img" class="article-img">
+                    </a>
+                        
+                    <div class="article-entry">
+                        <div class="article-social">
+                            <a href="#">
+                                <svg class="article-icon">
+                                    <use href="dist/img/icons.svg#icon-facebook"></use>
+                                </svg>  
+                            </a>
+                            <svg class="article-icon">
+                                <use href="dist/img/icons.svg#icon-twitter"></use>
+                            </svg>
+                            <svg class="article-icon">
+                                <use href="dist/img/icons.svg#icon-instagram"></use>
+                            </svg>
+                            <svg class="article-icon">
+                                <use href="dist/img/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </div>
+                        <div class="article-entry-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugit consequatur consequuntur vel nostrum suscipit nobis velit vero laudantium inventore molestias, alias voluptatum dolorum, autem ipsum nisi, quibusdam reprehenderit earum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page_arrow">
+                    <a href="#" class="page_arrow--prev">
+                            &#8592; PREVIOUS 
+                    </a>
+
+                    <a href="#" class="page_arrow--next">
+                            NEXT  &#8594;
+                    </a>
+                </div>
+            </div>
+
+            <!-- Article Side -->
+            <div class="articles-side">
+                <div class="articles-category" id="category">
+                    <h2>Category</h2>
+
+                    <a href="#" class="category-item">
+                        <div class="category-item-container  category-item-container--1">
+                            <p>Motivation</p>
+                            <span class="x">25</span>
+                        </div>
+                    </a>
+                    <a href="#" class="category-item">
+                        <div class="category-item-container category-item-container--2">
+                            <p>Web Design</p>
+                            <span>05</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="category-item">
+                        <div class="category-item-container category-item-container--3">
+                            <p>Front-End Web Dev</p>
+                            <span>15</span>
+                        </div>
+                    </a>
+                    <a href="#" class="category-item">
+                        <div class="category-item-container category-item-container--4">
+                            <p>Ressources</p>
+                            <span>12</span>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="follow-us">
+                    <h2>Follow us</h2>
+                    <div class="social">
+                        <a href="#">
+                            <svg class="social-icons">
+                                <use href="dist/img/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#">
+                            <svg class="social-icons">
+                                <use href="dist/img/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#">
+                            <svg class="social-icons">
+                                <use href="dist/img/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#">
+                            <svg class="social-icons">
+                                <use href="dist/img/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </main>
+    <footer class="blog-footer">
+        <div class="blog-footer_about">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing Amet reprehenderit, veritatis iste id cumque labore libero ex dignissimos a vero at officiis nisi ullam </p>
+        </div>
+
+        <div class="blog-footer_newsletter">
+            <h2>Newsletter</h2>
+            <p>Join our newsletter subscribers</p>
+            <form action="#">
+                <input type="email" name="email" placeholder="Email">
+                <input type="submit">
+            </form>
+        </div>
+
+        <div class="blog-footer_latest-instagram">
+            <h2>Instagram</h2>
+            <div class="blog-footer-galery">
+                <a href="#" class="instagram-img-link">
+                    <img src="dist/img/instagram-1.jpg" alt="Photo">
+                </a>
+
+                <a href="#" class="instagram-img-link">
+                    <img src="dist/img/instagram-2.jpg" alt="Photo">
+                </a>
+
+                <a href="#" class="instagram-img-link">
+                    <img src="dist/img/instagram-3.jpg" alt="Photo">
+                </a>
+
+                <a href="#" class="instagram-img-link">
+                    <img src="dist/img/instagram-4.jpg" alt="Photo">
+                </a>
+            </div>
+        </div>
+
+        <div class="blog-footer_follow">
+            <h2>Follow me</h2>
+            <div class="social">
+                <a href="#">
+                    <svg class="social-icons footer_social-icons">
+                        <use href="dist/img/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg class="social-icons footer_social-icons">
+                        <use href="dist/img/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg class="social-icons footer_social-icons">
+                        <use href="dist/img/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg class="social-icons footer_social-icons">
+                        <use href="dist/img/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+        
+
+        <!-- Use The node installed package instead ( i'm using cdn and separte file for glide to use github page) uncomment the next 2 lines and remove aos cdn and glide separate file  -->
+
+        <!-- <script src="node_modules/aos/dist/aos.js"></script>
+        <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script> -->
+        
+        <!-- remove these scripte and use the above from node_modules  -->
+        <script src="dist/lib/glide/glide.min.js"></script> 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="dist/js/bundle2.js"></script>
+        
+    </body>
+    </html>

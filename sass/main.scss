@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Averta-regular';
+    src: url("/css/Averta-regular.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Averta-bold';
+    src: url("/css/Averta-bold.otf") format("opentype");
+}
+
+@import "base";
+@import "layout";
+@import "component";
+@import "animation";
+@import "utilities";
+
+// // Required Core Stylesheet
+// @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// // Optional Theme Stylesheet
+// @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";

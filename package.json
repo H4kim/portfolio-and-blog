@@ -1,0 +1,35 @@
+{
+  "name": "imhakim",
+  "version": "1.0.0",
+  "description": "personel blog",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "node-sass sass/main.scss dist/css/style.css -w ",
+    "live": "live-server",
+    "dev": "webpack --mode=development",
+    "start": "run-p watch:scss live",
+    
+    "build:scss": "node-sass sass/main.scss dist/css/style.css ",
+    "production": "webpack"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Hakim Bencella",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.0",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.13.0",
+    "npm-run-all": "^4.1.5",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

@@ -1,0 +1,90 @@
+@keyframes slide-to-left{
+    0% {
+        position: relative;
+       left: 40rem;
+       opacity: 0;
+    }
+
+    80% {
+        position: relative;
+        left:  -2rem;
+        opacity: .8;  
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+        position: relative;
+
+    }
+} 
+
+@keyframes slide-to-right{
+    0% {
+        position: relative;
+       right: 10rem;
+       opacity: 0;
+    }
+
+    80% {
+        position: relative;
+        right: -2rem;
+        opacity: .8;  
+    }
+
+    100% {
+        position: relative;
+        right: 0;
+        opacity: 1;
+    }
+} 
+
+@keyframes slide-to-top{
+    0% {
+        position: relative;
+       top: 10rem;
+       opacity: 0;
+
+    }
+
+
+    80% {
+        position: relative;
+        top: -2rem;
+    }
+
+    100% {
+        position: relative;
+        top: 0;
+        opacity: 1;
+    }
+} 
+
+@keyframes slide-to-bottom{
+    0% {
+        position: relative;
+       bottom: 10rem;
+       opacity: 0;
+
+    }
+
+
+    80% {
+        position: relative;
+        bottom: -2rem;
+    }
+
+    100% {
+        position: relative;
+        bottom: 0;
+        opacity: 1;
+    }
+} 
+
+@keyframes black-background {
+    0% {
+        background-color: var(--color-white)
+    }
+
+   
+}

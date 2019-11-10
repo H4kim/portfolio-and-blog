@@ -1,0 +1,93 @@
+/* 0 -600 => phone 
+  600 - 900 => tab-port
+  900 -1200 => tab-land
+  1200 - 1800 => desk
+  1800 > x  = big
+*/
+@mixin r($device) {
+    @if $device == phone {
+         @media screen and (max-width : 660px){
+             @content
+         }
+    };
+
+    @if $device == tab-port {
+        @media screen and (max-width : 980px){
+            @content
+        }
+   };
+
+   @if $device == tab-land {
+        @media screen and (max-width : 1160px){
+            @content
+        }
+    };
+
+    @if $device == desk {
+        @media screen and (max-width : 1350px){
+            @content
+        }
+    };
+    
+
+    @if $device == big {
+        @media screen and (min-width : 1800px){
+            @content
+        }
+    };
+
+}
+html {
+    box-sizing: border-box;
+    font-size: 65.5%;
+    font-family: 'Averta-regular', 'Lato' ,sans-serif;
+    scroll-behavior: smooth;
+
+    @include r(tab-port) {
+        font-size: 60%;
+    }
+}
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: var(--color-white);
+}
+
+a {
+    text-decoration: none;
+    color : inherit
+}
+
+
+:root {
+    --color-primary : #53A2BE ;
+    --color-primary-light : #81BBCF ;
+    --color-primary-light-2 : #A1CCDB ;
+
+    
+    --color-secondary : #FF7E6D;
+    --color-secondary-light : #F9ACAC;
+    --color-secondary-light-2 : #FAC4C3;
+    
+    --color-tertiary : #EA526F;
+    --color-tertiary-light : #EF8196;
+    --color-tertiary-light-2 : #F3A0B0;
+
+    --color-dark : #1E1E24;
+    --color-dark-light : #46464B;
+    --color-dark-light-2 : #ADADAF;
+
+    --color-white : #f7f7f7;
+    --color-white-light :  #ffffffb3;
+    --color-white-light-2 :  #ffffff6b;
+
+}

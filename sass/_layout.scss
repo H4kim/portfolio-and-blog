@@ -1,0 +1,46 @@
+
+.container {
+    width: 80% ;
+    margin: 10rem auto;
+    display: flex;
+    box-shadow: 0 1px 1rem rgba(128, 128, 128, 0.397);
+
+    @include r(desk) {
+        flex-direction: column;
+    }
+
+    @include r(tab-port) {
+        width : 100%;
+        margin: 10rem auto;
+
+    }
+
+
+   
+}
+
+// ABOUT LAYOUT 
+.about {
+    background-image : var(--color-white);;
+    margin-right: 2px;
+    width: 70%;
+
+    @include r(desk) {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+// BLOG LAYOUT1
+.blog {
+    width: 30%;
+    background-color: var(--color-primary-light);
+    box-shadow: -1px 0 1px rgba(128, 128, 128, 0.397);
+    position: relative;
+    animation: black-background 2s;
+
+    @include r(desk) {
+        width: 100%;
+        height: 15rem;
+    }
+}

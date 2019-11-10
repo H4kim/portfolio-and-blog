@@ -1,0 +1,81 @@
+.display {
+    display: block !important;
+}
+
+.btn-1 {
+    color: var(--color-white);
+    font-weight: 700;
+    background-color:  var(--color-tertiary-light);
+    padding: 2rem 8rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    font-family: 'Averta-bold', 'Lato' ,sans-serif;
+    transition: all  .1s;
+
+    @include r(desk){
+        padding: 1rem 6rem;
+    }
+
+    @include r(tab-port){
+        padding: 1rem 4rem;
+    }
+    
+    &-anim {
+        animation: slide-to-top .5s;
+    }
+    &:hover {
+        background-color:  var(--color-tertiary);
+    }
+
+    
+}
+
+
+// Social icons 
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+
+    a{
+        margin-right: 1rem;
+    }
+    &-icons {
+        width : 3.5rem ;
+        height: 3.5rem;
+    }
+    
+    
+    a:nth-child(1) > svg{
+        fill: #4267B2;
+        
+        &:hover {
+            fill: #4175df ;
+        }
+    }
+    
+    a:nth-child(2) > svg{
+        fill: #CB3F6C;
+
+        &:hover {
+            fill: #ff3e7b;
+        }
+    }
+
+    a:nth-child(3) > svg{
+        fill: #1DA1F2;
+        &:hover {
+            fill: rgb(0, 195, 255);
+        }
+    }
+    
+    a:nth-child(4) > svg{
+        fill: #0077B5;
+        &:hover {
+            fill: rgb(86, 181, 240);
+        }
+    }
+}
+
+
