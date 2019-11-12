@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Averta-regular';
-  src: url("/css/Averta-regular.otf") format("opentype"); }
+  src: url("Averta-regular.otf") format("opentype"); }
 
 @font-face {
   font-family: 'Averta-bold';
-  src: url("/css/Averta-bold.otf") format("opentype"); }
+  src: url("Averta-bold.otf") format("opentype"); }
 
 /* 0 -600 => phone 
   600 - 900 => tab-port
